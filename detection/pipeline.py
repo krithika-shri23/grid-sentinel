@@ -296,6 +296,13 @@ def _build_reason(row, anomaly_type):
 def main():
     df = load_or_generate_data()
     df = inject_anomalies(df)
+
+    # Export raw consumption series so the dashboard can chart it
+    os.makedirs("data", exist_ok=True)
+    df[["account_id", "timestamp", "consumption_kwh"]].to_csv(
+        "data/consumption_timeseries.csv", index=False
+    )
+
     df = compute_baselines(df)
     df = detect_zscore(df)
     df = detect_isolation_forest(df)
