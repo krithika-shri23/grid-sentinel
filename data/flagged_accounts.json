@@ -1,7 +1,7 @@
 [
   {
     "account_id": "MT_003",
-    "window_start": "2014-12-25T00:45:00",
+    "window_start": "2014-12-25T02:30:00",
     "window_end": "2014-12-26T00:00:00",
     "risk_score": 99,
     "confidence": 99,
@@ -12,25 +12,36 @@
   },
   {
     "account_id": "MT_002",
-    "window_start": "2014-12-24T17:15:00",
+    "window_start": "2014-12-25T23:30:00",
     "window_end": "2014-12-26T02:45:00",
     "risk_score": 80,
     "confidence": 80,
     "anomaly_type": "spike",
-    "reason": "Consumption is 2.8x higher than normal baseline for this hour.",
-    "actual_value": 12.874,
-    "baseline_value": 4.548
+    "reason": "Consumption is 3.2x higher than normal baseline for this hour.",
+    "actual_value": 16.792,
+    "baseline_value": 5.175
   },
   {
     "account_id": "MT_011",
-    "window_start": "2014-12-12T14:45:00",
-    "window_end": "2014-12-25T02:45:00",
+    "window_start": "2014-12-25T00:30:00",
+    "window_end": "2014-12-25T01:15:00",
     "risk_score": 78,
     "confidence": 78,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.4x higher than normal baseline for this hour.",
-    "actual_value": 11.55,
-    "baseline_value": 8.222
+    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
+    "actual_value": 15.462,
+    "baseline_value": 9.13
+  },
+  {
+    "account_id": "MT_003",
+    "window_start": "2014-12-25T00:45:00",
+    "window_end": "2014-12-25T00:45:00",
+    "risk_score": 76,
+    "confidence": 76,
+    "anomaly_type": "drop",
+    "reason": "Consumption dropped to 0.0x of normal baseline for this hour.",
+    "actual_value": 0.0,
+    "baseline_value": 0.42
   },
   {
     "account_id": "MT_009",
@@ -40,23 +51,23 @@
     "confidence": 75,
     "anomaly_type": "drop",
     "reason": "Consumption dropped to 0.1x of normal baseline for this hour.",
-    "actual_value": 1.611,
-    "baseline_value": 11.825
+    "actual_value": 1.797,
+    "baseline_value": 13.112
   },
   {
     "account_id": "MT_018",
-    "window_start": "2014-12-25T01:30:00",
+    "window_start": "2014-12-26T05:30:00",
     "window_end": "2014-12-26T08:45:00",
     "risk_score": 75,
     "confidence": 75,
     "anomaly_type": "drop",
-    "reason": "Consumption dropped to 0.1x of normal baseline for this hour.",
-    "actual_value": 7.974,
-    "baseline_value": 73.499
+    "reason": "Consumption dropped to 0.2x of normal baseline for this hour.",
+    "actual_value": 7.063,
+    "baseline_value": 43.173
   },
   {
     "account_id": "MT_016",
-    "window_start": "2014-12-20T10:15:00",
+    "window_start": "2015-01-01T00:00:00",
     "window_end": "2015-01-01T00:00:00",
     "risk_score": 74,
     "confidence": 74,
@@ -66,15 +77,26 @@
     "baseline_value": 9.947
   },
   {
-    "account_id": "MT_017",
-    "window_start": "2014-12-25T01:30:00",
-    "window_end": "2015-01-01T00:00:00",
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T04:45:00",
+    "window_end": "2014-12-31T06:45:00",
     "risk_score": 69,
     "confidence": 69,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.6x higher than normal baseline for this hour.",
-    "actual_value": 18.868,
-    "baseline_value": 11.524
+    "reason": "Consumption is 2.0x higher than normal baseline for this hour.",
+    "actual_value": 15.091,
+    "baseline_value": 7.398
+  },
+  {
+    "account_id": "MT_017",
+    "window_start": "2014-12-25T01:30:00",
+    "window_end": "2014-12-25T03:30:00",
+    "risk_score": 69,
+    "confidence": 69,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 15.948,
+    "baseline_value": 9.024
   },
   {
     "account_id": "MT_019",
@@ -83,30 +105,30 @@
     "risk_score": 68,
     "confidence": 68,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
-    "actual_value": 2.513,
-    "baseline_value": 1.729
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 3.266,
+    "baseline_value": 1.82
   },
   {
     "account_id": "MT_007",
-    "window_start": "2014-12-30T20:00:00",
-    "window_end": "2014-12-31T23:15:00",
+    "window_start": "2014-12-31T18:45:00",
+    "window_end": "2014-12-31T19:30:00",
     "risk_score": 67,
     "confidence": 67,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
-    "actual_value": 2.826,
-    "baseline_value": 1.708
+    "reason": "Consumption is 2.0x higher than normal baseline for this hour.",
+    "actual_value": 3.392,
+    "baseline_value": 1.729
   },
   {
     "account_id": "MT_010",
     "window_start": "2014-12-05T21:00:00",
-    "window_end": "2014-12-29T21:30:00",
+    "window_end": "2014-12-05T22:00:00",
     "risk_score": 67,
     "confidence": 67,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
-    "actual_value": 30.108,
+    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
+    "actual_value": 34.14,
     "baseline_value": 20.645
   },
   {
@@ -116,9 +138,9 @@
     "risk_score": 67,
     "confidence": 67,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.2x higher than normal baseline for this hour.",
-    "actual_value": 42.021,
-    "baseline_value": 33.774
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 59.043,
+    "baseline_value": 38.307
   },
   {
     "account_id": "MT_015",
@@ -127,38 +149,258 @@
     "risk_score": 67,
     "confidence": 67,
     "anomaly_type": "spike",
-    "reason": "Consumption is 1.3x higher than normal baseline for this hour.",
-    "actual_value": 12.138,
-    "baseline_value": 9.219
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 15.108,
+    "baseline_value": 10.157
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T18:45:00",
+    "window_end": "2014-12-31T19:30:00",
+    "risk_score": 67,
+    "confidence": 67,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 24.345,
+    "baseline_value": 13.194
+  },
+  {
+    "account_id": "MT_017",
+    "window_start": "2014-12-31T22:30:00",
+    "window_end": "2015-01-01T00:00:00",
+    "risk_score": 67,
+    "confidence": 67,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.6x higher than normal baseline for this hour.",
+    "actual_value": 18.868,
+    "baseline_value": 11.524
   },
   {
     "account_id": "MT_006",
-    "window_start": "2014-12-20T14:45:00",
+    "window_start": "2014-12-25T02:30:00",
     "window_end": "2014-12-25T03:15:00",
     "risk_score": 66,
     "confidence": 66,
     "anomaly_type": "spike",
+    "reason": "Consumption is 1.6x higher than normal baseline for this hour.",
+    "actual_value": 67.708,
+    "baseline_value": 42.324
+  },
+  {
+    "account_id": "MT_010",
+    "window_start": "2014-12-18T18:15:00",
+    "window_end": "2014-12-18T18:30:00",
+    "risk_score": 66,
+    "confidence": 66,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 38.71,
+    "baseline_value": 21.402
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-25T01:30:00",
+    "window_end": "2014-12-25T05:45:00",
+    "risk_score": 66,
+    "confidence": 66,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.9x higher than normal baseline for this hour.",
+    "actual_value": 13.952,
+    "baseline_value": 7.51
+  },
+  {
+    "account_id": "MT_007",
+    "window_start": "2014-12-30T20:00:00",
+    "window_end": "2014-12-30T20:15:00",
+    "risk_score": 64,
+    "confidence": 64,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
+    "actual_value": 3.392,
+    "baseline_value": 1.984
+  },
+  {
+    "account_id": "MT_010",
+    "window_start": "2014-12-09T08:00:00",
+    "window_end": "2014-12-09T09:45:00",
+    "risk_score": 64,
+    "confidence": 64,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 2.7x higher than normal baseline for this hour.",
+    "actual_value": 28.495,
+    "baseline_value": 10.517
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T01:15:00",
+    "window_end": "2014-12-31T02:30:00",
+    "risk_score": 62,
+    "confidence": 62,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 14.237,
+    "baseline_value": 7.839
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T07:45:00",
+    "window_end": "2014-12-31T07:45:00",
+    "risk_score": 62,
+    "confidence": 62,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 2.0x higher than normal baseline for this hour.",
+    "actual_value": 14.095,
+    "baseline_value": 6.91
+  },
+  {
+    "account_id": "MT_017",
+    "window_start": "2014-12-31T18:15:00",
+    "window_end": "2014-12-31T18:15:00",
+    "risk_score": 61,
+    "confidence": 61,
+    "anomaly_type": "spike",
     "reason": "Consumption is 1.3x higher than normal baseline for this hour.",
-    "actual_value": 50.595,
-    "baseline_value": 37.915
+    "actual_value": 25.831,
+    "baseline_value": 19.268
+  },
+  {
+    "account_id": "MT_007",
+    "window_start": "2014-12-31T21:30:00",
+    "window_end": "2014-12-31T23:15:00",
+    "risk_score": 60,
+    "confidence": 60,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
+    "actual_value": 2.826,
+    "baseline_value": 1.708
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T09:00:00",
+    "window_end": "2014-12-31T09:15:00",
+    "risk_score": 59,
+    "confidence": 59,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.8x higher than normal baseline for this hour.",
+    "actual_value": 14.949,
+    "baseline_value": 8.41
   },
   {
     "account_id": "MT_008",
     "window_start": "2014-12-25T08:15:00",
-    "window_end": "2014-12-25T09:45:00",
+    "window_end": "2014-12-25T08:15:00",
     "risk_score": 58,
     "confidence": 58,
     "anomaly_type": "drop",
-    "reason": "Consumption dropped to 0.6x of normal baseline for this hour.",
-    "actual_value": 37.879,
+    "reason": "Consumption dropped to 0.5x of normal baseline for this hour.",
+    "actual_value": 31.145,
+    "baseline_value": 57.934
+  },
+  {
+    "account_id": "MT_006",
+    "window_start": "2014-12-25T01:30:00",
+    "window_end": "2014-12-25T01:30:00",
+    "risk_score": 57,
+    "confidence": 57,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 66.964,
+    "baseline_value": 45.492
+  },
+  {
+    "account_id": "MT_008",
+    "window_start": "2014-12-25T09:30:00",
+    "window_end": "2014-12-25T09:45:00",
+    "risk_score": 57,
+    "confidence": 57,
+    "anomaly_type": "drop",
+    "reason": "Consumption dropped to 0.5x of normal baseline for this hour.",
+    "actual_value": 34.512,
     "baseline_value": 67.894
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-30T23:15:00",
+    "window_end": "2014-12-30T23:15:00",
+    "risk_score": 57,
+    "confidence": 57,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.6x higher than normal baseline for this hour.",
+    "actual_value": 19.647,
+    "baseline_value": 12.617
   },
   {
     "account_id": "MT_004",
     "window_start": "2014-12-25T08:15:00",
-    "window_end": "2014-12-28T13:00:00",
+    "window_end": "2014-12-25T08:30:00",
     "risk_score": 55,
     "confidence": 55,
+    "anomaly_type": "drop",
+    "reason": "Consumption dropped to 0.6x of normal baseline for this hour.",
+    "actual_value": 16.768,
+    "baseline_value": 26.918
+  },
+  {
+    "account_id": "MT_002",
+    "window_start": "2014-12-25T12:30:00",
+    "window_end": "2014-12-25T13:00:00",
+    "risk_score": 54,
+    "confidence": 54,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.4x higher than normal baseline for this hour.",
+    "actual_value": 9.246,
+    "baseline_value": 6.792
+  },
+  {
+    "account_id": "MT_011",
+    "window_start": "2014-12-25T02:30:00",
+    "window_end": "2014-12-25T02:45:00",
+    "risk_score": 54,
+    "confidence": 54,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.4x higher than normal baseline for this hour.",
+    "actual_value": 11.55,
+    "baseline_value": 8.222
+  },
+  {
+    "account_id": "MT_010",
+    "window_start": "2014-12-25T01:30:00",
+    "window_end": "2014-12-25T03:00:00",
+    "risk_score": 53,
+    "confidence": 53,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.3x higher than normal baseline for this hour.",
+    "actual_value": 16.129,
+    "baseline_value": 11.983
+  },
+  {
+    "account_id": "MT_010",
+    "window_start": "2014-12-29T21:15:00",
+    "window_end": "2014-12-29T21:30:00",
+    "risk_score": 53,
+    "confidence": 53,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 31.183,
+    "baseline_value": 20.645
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-20T10:15:00",
+    "window_end": "2014-12-20T10:30:00",
+    "risk_score": 53,
+    "confidence": 53,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.7x higher than normal baseline for this hour.",
+    "actual_value": 15.945,
+    "baseline_value": 9.358
+  },
+  {
+    "account_id": "MT_004",
+    "window_start": "2014-12-28T13:00:00",
+    "window_end": "2014-12-28T13:00:00",
+    "risk_score": 50,
+    "confidence": 50,
     "anomaly_type": "spike",
     "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
     "actual_value": 51.829,
@@ -166,7 +408,7 @@
   },
   {
     "account_id": "MT_005",
-    "window_start": "2014-12-22T10:15:00",
+    "window_start": "2014-12-25T02:30:00",
     "window_end": "2014-12-25T02:30:00",
     "risk_score": 50,
     "confidence": 50,
@@ -187,6 +429,61 @@
     "baseline_value": 9.438
   },
   {
+    "account_id": "MT_002",
+    "window_start": "2014-12-24T17:15:00",
+    "window_end": "2014-12-24T17:30:00",
+    "risk_score": 48,
+    "confidence": 48,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.3x higher than normal baseline for this hour.",
+    "actual_value": 7.468,
+    "baseline_value": 5.94
+  },
+  {
+    "account_id": "MT_005",
+    "window_start": "2014-12-22T10:15:00",
+    "window_end": "2014-12-22T10:45:00",
+    "risk_score": 46,
+    "confidence": 46,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 21.037,
+    "baseline_value": 14.477
+  },
+  {
+    "account_id": "MT_018",
+    "window_start": "2014-12-25T01:30:00",
+    "window_end": "2014-12-25T01:30:00",
+    "risk_score": 46,
+    "confidence": 46,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 82.268,
+    "baseline_value": 55.718
+  },
+  {
+    "account_id": "MT_011",
+    "window_start": "2014-12-12T14:45:00",
+    "window_end": "2014-12-12T14:45:00",
+    "risk_score": 44,
+    "confidence": 44,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 13.599,
+    "baseline_value": 9.249
+  },
+  {
+    "account_id": "MT_017",
+    "window_start": "2014-12-31T15:15:00",
+    "window_end": "2014-12-31T15:15:00",
+    "risk_score": 44,
+    "confidence": 44,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.4x higher than normal baseline for this hour.",
+    "actual_value": 19.317,
+    "baseline_value": 13.496
+  },
+  {
     "account_id": "MT_013",
     "window_start": "2014-12-12T22:30:00",
     "window_end": "2014-12-12T22:30:00",
@@ -196,5 +493,27 @@
     "reason": "Consumption is 1.6x higher than normal baseline for this hour.",
     "actual_value": 15.962,
     "baseline_value": 10.09
+  },
+  {
+    "account_id": "MT_016",
+    "window_start": "2014-12-31T03:45:00",
+    "window_end": "2014-12-31T03:45:00",
+    "risk_score": 41,
+    "confidence": 41,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.5x higher than normal baseline for this hour.",
+    "actual_value": 11.105,
+    "baseline_value": 7.51
+  },
+  {
+    "account_id": "MT_006",
+    "window_start": "2014-12-20T14:45:00",
+    "window_end": "2014-12-20T14:45:00",
+    "risk_score": 40,
+    "confidence": 40,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 1.4x higher than normal baseline for this hour.",
+    "actual_value": 78.869,
+    "baseline_value": 58.023
   }
 ]
