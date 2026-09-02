@@ -166,39 +166,6 @@
   },
   {
     "account_id":"ACC_0007",
-    "window_start":"2024-01-01 00:00:00",
-    "window_end":"2024-01-01 00:15:00",
-    "risk_score":70,
-    "confidence":80,
-    "anomaly_type":"flatline",
-    "reason":"Consumption reading is suspiciously constant vs. normal variation (possible meter\/data issue).",
-    "actual_value":0.0899984487,
-    "baseline_value":0.1142781829
-  },
-  {
-    "account_id":"ACC_0007",
-    "window_start":"2024-01-01 00:15:00",
-    "window_end":"2024-01-01 00:30:00",
-    "risk_score":70,
-    "confidence":80,
-    "anomaly_type":"flatline",
-    "reason":"Consumption reading is suspiciously constant vs. normal variation (possible meter\/data issue).",
-    "actual_value":0.0808902624,
-    "baseline_value":0.1362508781
-  },
-  {
-    "account_id":"ACC_0007",
-    "window_start":"2024-01-01 00:30:00",
-    "window_end":"2024-01-01 00:45:00",
-    "risk_score":40,
-    "confidence":60,
-    "anomaly_type":"flatline",
-    "reason":"Consumption reading is suspiciously constant vs. normal variation (possible meter\/data issue).",
-    "actual_value":0.0862888475,
-    "baseline_value":0.1115207916
-  },
-  {
-    "account_id":"ACC_0007",
     "window_start":"2024-02-03 08:45:00",
     "window_end":"2024-02-03 09:00:00",
     "risk_score":75,
