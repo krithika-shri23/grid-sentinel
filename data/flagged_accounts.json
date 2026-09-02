@@ -1,0 +1,46 @@
+[
+  {
+    "account_id": "ACC008",
+    "window_start": "2024-01-07T01:00:00",
+    "window_end": "2024-01-07T04:15:00",
+    "risk_score": 97,
+    "confidence": 97,
+    "anomaly_type": "drop",
+    "reason": "Consumption dropped to 0.1x of normal baseline for this hour.",
+    "actual_value": 0.083,
+    "baseline_value": 0.685
+  },
+  {
+    "account_id": "ACC009",
+    "window_start": "2024-01-11T22:30:00",
+    "window_end": "2024-01-12T01:45:00",
+    "risk_score": 88,
+    "confidence": 88,
+    "anomaly_type": "drop",
+    "reason": "Consumption dropped to 0.1x of normal baseline for this hour.",
+    "actual_value": 0.108,
+    "baseline_value": 0.772
+  },
+  {
+    "account_id": "ACC007",
+    "window_start": "2024-01-02T08:45:00",
+    "window_end": "2024-01-02T12:00:00",
+    "risk_score": 80,
+    "confidence": 80,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 3.2x higher than normal baseline for this hour.",
+    "actual_value": 3.122,
+    "baseline_value": 0.973
+  },
+  {
+    "account_id": "ACC012",
+    "window_start": "2024-01-02T13:30:00",
+    "window_end": "2024-01-02T16:45:00",
+    "risk_score": 70,
+    "confidence": 70,
+    "anomaly_type": "spike",
+    "reason": "Consumption is 3.0x higher than normal baseline for this hour.",
+    "actual_value": 2.349,
+    "baseline_value": 0.796
+  }
+]
