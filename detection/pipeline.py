@@ -236,9 +236,18 @@ def export_flagged_accounts(df, path=OUTPUT_PATH):
     alerts = df[df["is_alert_filtered"]].copy()
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
+    # Group into CONTIGUOUS alert runs per account instead of one blob per
+    # account -- an account can trip the alert on several separate
+    # occasions, and each occasion should be its own window, not merged
+    # into a single window spanning the whole gap between them.
+    alerts = alerts.sort_values(["account_id", "timestamp"])
+    time_gap = alerts.groupby("account_id")["timestamp"].diff()
+    new_run = (time_gap != pd.Timedelta(minutes=15)) | time_gap.isna()
+    alerts["run_id"] = new_run.groupby(alerts["account_id"]).cumsum()
+
     output = []
-    for acc, group in alerts.groupby("account_id"):
-        row = group.iloc[-1]  # most recent alert window for this account
+    for (acc, _run_id), group in alerts.groupby(["account_id", "run_id"]):
+        row = group.loc[group["risk_score"].idxmax()]  # peak of THIS window
         anomaly_type = row["injected_type"] if pd.notna(row["injected_type"]) else _infer_type(row)
         reason = _build_reason(row, anomaly_type)
 
