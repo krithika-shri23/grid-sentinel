@@ -204,7 +204,7 @@ def build_rolling_features(df: pd.DataFrame, window: int = 8) -> pd.DataFrame:
     for account, g in df.groupby("account_id"):
         g = g.sort_values("timestamp").copy()
         g["roll_mean"] = g["consumption_kwh"].rolling(window, min_periods=3).mean()
-        g["roll_std"] = g["consumption_kwh"].rolling(window, min_periods=3).std().fillna(0.0)
+        g["roll_std"] = g["consumption_kwh"].rolling(window, min_periods=3).std()  # leave NaN for warm-up rows (first `window`-1 points) -- there isn't enough history yet to claim flatline or anything else about them, so they should not be flagged rather than defaulting to 0.0
         g["roll_delta"] = g["consumption_kwh"].diff().fillna(0.0)
         out.append(g)
     return pd.concat(out, ignore_index=True)
