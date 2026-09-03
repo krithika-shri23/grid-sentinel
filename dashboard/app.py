@@ -299,7 +299,7 @@ def goto_analysis(window_idx):
 
 with st.sidebar:
     st.markdown(
-        '<div class="brand">⚡ GRID SENTINEL</div>'
+        '<div class="brand">GRID SENTINEL</div>'
         '<div class="brand-sub">INVESTIGATION CONSOLE</div>',
         unsafe_allow_html=True,
     )
